@@ -10497,3 +10497,7 @@ blockquote cite:before {
   background: linear-gradient(45deg, #fffffff2, transparent);
   z-index: 3;
 }
+
+.object-cover { 
+  object-fit: cover;
+}
