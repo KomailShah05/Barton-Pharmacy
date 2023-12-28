@@ -10498,6 +10498,16 @@ blockquote cite:before {
   z-index: 3;
 }
 
-.object-cover { 
+.object-cover {
   object-fit: cover;
+}
+
+.new-accordion .accordion-item {
+  border: 0.0625rem solid var(--theme-color);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.travel-vaccination-item img {
+  filter: hue-rotate(45deg);
 }
