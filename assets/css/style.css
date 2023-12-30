@@ -10493,8 +10493,13 @@ blockquote cite:before {
   object-fit: contain;
 }
 
+.bg-overlay-1 {
+  background-color: #ffffff91;
+  background-blend-mode: overlay;
+}
+
 .bg-overlay .ls-background-videos {
-  background: linear-gradient(45deg, #fffffff2, transparent);
+  background: linear-gradient(46deg, #ffffff, transparent);
   z-index: 3;
 }
 
