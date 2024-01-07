@@ -1,9 +1,11 @@
 :root {
-  --theme-color: #07ccec;
+  /* --theme-color: #07ccec; */
+  --theme-color: #3ead71;
   --theme-color2: #2cb624;
   --theme-color3: #0033a0;
   --theme-color4: #1296db;
-  --title-color: #27477d;
+  /* --title-color: #27477d; */
+  --title-color: #305f59;
   --title-color2: #000000;
   --body-color: #888c92;
   --body-color2: #555555;
@@ -2945,7 +2947,7 @@ textarea.form-control.is-invalid {
   text-align: center;
   line-height: 55px;
   background-color: rgba(39, 71, 125, 0.28);
-  color: #7f9ccd;
+  color: #71c492;
   margin-right: 12px;
   border-radius: 50%;
 }
@@ -4066,7 +4068,7 @@ textarea.form-control.is-invalid {
   top: 0;
   bottom: 0;
   right: -30px;
-  background-color: #0a1830;
+  background-color: var(--title-color);
   -webkit-clip-path: polygon(0 0, 100% 0, calc(100% - 30px) 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 0, calc(100% - 30px) 100%, 0% 100%);
   z-index: -1;
@@ -10483,6 +10485,7 @@ blockquote cite:before {
 /* custom css */
 
 .logo-1 {
+  filter: hue-rotate(288deg);
   width: 10rem;
   height: 2.5rem;
   object-fit: contain;
@@ -10513,6 +10516,7 @@ blockquote cite:before {
   padding: 1rem;
 }
 
-.travel-vaccination-item img {
-  filter: hue-rotate(45deg);
+footer {
+  background-blend-mode: overlay;
+  background-color: #167816;
 }
