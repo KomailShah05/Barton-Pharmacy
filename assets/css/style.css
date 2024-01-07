@@ -10492,6 +10492,7 @@ blockquote cite:before {
 }
 
 .mobile-logo img {
+  filter: hue-rotate(288deg);
   height: 4rem;
   object-fit: contain;
 }
